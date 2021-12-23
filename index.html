@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="music player.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+</head>
+
+<body>
+    <section class="header">
+
+
+
+
+
+
+        <div class="back">
+            <div class="play">
+                <button id="idMmenu" class="menu"></button>
+
+
+                <img src="png/lp.png">
+                <a class="playerName" href="#">SEPEHRDAD</a>
+                <button class="search"></button>
+
+
+
+            </div>
+
+            <div class="backDetail">
+                <h4>Features</h4>
+                <div class="backButten">
+                    <button><i class='bx bx-home bx-flashing' style='color:#e01212'></i>Home</button>
+                    <button><i class='bx bx-compass' style='color:#e20f0f'></i>Discover</button>
+                    <button><i class='bx bx-download' style='color:#e20f0f'></i>Download</button>
+                    <button><i class='bx bx-bar-chart' style='color:#e20f0f'></i>Trending</button>
+                    <h4>Collections</h4>
+                    <button><i class='bx bx-music' style='color:#e20f0f'></i>My PlayList</button>
+                    <button><i class='bx bx-user' style='color:#e01212'></i>Artist</button>
+                    <button><i class='bx bx-album' style='color:#e01212'></i>Album</button>
+                    <h4>Library</h4>
+                    <button><i class='bx bx-heart' style='color:#e01212'></i>Favorite</button>
+                    <button><i class='bx bx-memory-card' style='color:#e01212'></i>Local Files</button>
+                </div>
+                <div class="setting">
+                    <h4>SETTING</h4>
+                    <button><i class='bx bx-cog' style='color:#e01212'></i>General Setting</button>
+                    <button><i class='bx bx-user-circle' style='color:#e01212'></i>Account Setting</button>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+        <div class="main">
+            <div class="titleButten">
+                <button><img src="png/music.png">Music</button>
+                <button><img src="png/microphone.png">Podcast</button>
+                <button><img src="png/agenda.png">story</button>
+                <button><img src="png/pumpkin.png">horror</button>
+                <button><img src="png/drama.png">Comedy</button>
+                <button><img src="png/ballon.png">Romance</button>
+
+            </div>
+            <div class="mainNote">
+                <h3>papular</h3>
+                <h5>see more</h5>
+            </div>
+            <div class="showArtist">
+
+
+                <div class="artistTitle">
+                    <img class="imgOfArtist" src="./artist/adele.jpg">
+                    <div class="pm">
+                        <div class="artistText">
+                            <h5>Easy on Me</h5>
+                            <h6>Adele</h6>
+
+                        </div>
+                        <img src="png/play2.png" class="sticker">
+
+                    </div>
+
+                </div>
+                <div class="artistTitle">
+                    <img class="imgOfArtist" src="./artist/billie eilish.jpg">
+                    <div class="pm">
+                        <div class="artistText">
+                            <h5>Happier than e...</h5>
+                            <h6>Billie Eislish</h6>
+
+                        </div>
+                        <img src="png/play2.png" class="sticker">
+
+                    </div>
+
+                </div>
+                <div class="artistTitle">
+                    <img class="imgOfArtist" src="./artist/eminem.jpg">
+                    <div class="pm">
+                        <div class="artistText">
+                            <h5>Godzilla</h5>
+                            <h6>Eminem</h6>
+
+                        </div>
+                        <img src="png/play2.png" class="sticker">
+
+                    </div>
+
+                </div>
+                <div class="artistTitle">
+                    <img class="imgOfArtist" src="./artist/katy perry.jpg">
+                    <div class="pm">
+                        <div class="artistText">
+                            <h5>Roar</h5>
+                            <h6>Katy Perry</h6>
+
+                        </div>
+                        <img src="png/play2.png" class="sticker">
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="mPart2">
+                <div class="recentPlayList">
+                    <h4>My Recent Playlist</h4>
+                    <h5>see details</h5>
+                </div>
+                <div class="playlist">
+
+
+                    <img class="playlistImg" src="./artist/katy perry.jpg" alt="">
+
+                    <div class="justbutton">
+                        <div class="playlistButtom">
+                            <div class="playlistDetail">
+                                <h3>Indonesian Hot Music 2021</h3>
+                                <p>name Of Playlist</p>
+                            </div>
+                            <button>poular</button>
+                            <button>2021</button>
+                            <button>slow but sure</button>
+                        </div>
+
+
+                    </div>
+                    <div class="playlistButton">
+                        <button class="playNow">Play Now</button>
+                        <button><i class='bx bx-share-alt'></i></button>
+                        <i id="dots" class='bx bx-dots-horizontal-rounded'></i>
+                    </div>
+
+
+
+
+
+                </div>
+
+
+            </div>
+            <div class="mPart3">
+                <hr>
+                <div class="allAbiutMusic">
+                    <h4>#</h4>
+                    <h4>TITLE</h4>
+                    <h4>ARTIST</h4>
+                    <h4>ALBUM</h4>
+                    <h4>DATE</h4>
+                    <h4>TIME</h4>
+                </div>
+                <hr>
+                <div class="allMusicDetails">
+
+                    <div class="oneMusic">
+                        <p>1</p>
+                        <img src="./artist/adam-levine-hd.jpg" alt="">
+                        <p>story</p>
+                        <p>Adam </p>
+                        <p>runth</p>
+                        <p>3 days ago</p>
+                        <p>3:44</p>
+                    </div>
+
+                    <div class="oneMusic">
+                        <p>2</p>
+                        <img src="./artist/adele.jpg" alt="">
+                        <p>story</p>
+                        <p>Adele</p>
+                        <p>runth</p>
+                        <p>1 Week ago</p>
+                        <p>4:05</p>
+                    </div>
+
+                    <div class="oneMusic">
+                        <p>3</p>
+                        <img src="./artist/download (1).jpg" alt="">
+                        <p>story</p>
+                        <p>Eminem</p>
+                        <p>runth</p>
+                        <p>2 days ago</p>
+                        <p>3:24</p>
+                    </div>
+
+                    <div class="oneMusic">
+                        <p>4</p>
+                        <img src="./artist/shakira.jpg" alt="">
+                        <p>story</p>
+                        <p>Shakira</p>
+                        <p>runth</p>
+                        <p>1 days ago</p>
+                        <p>3:44</p>
+                    </div>
+
+                    <div class="oneMusic">
+                        <p>5</p>
+                        <img src="./artist/Miley Cyrus.jpg" alt="">
+                        <p>story</p>
+                        <p>Miley</p>
+                        <p>runth</p>
+                        <p>2 days ago</p>
+                        <p>1:23</p>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="next">
+
+            <a class="Search">Search</a>
+
+            <form class="searchForm" role="search">
+                <input type="search" placeholder="   Search..." name="search">
+
+
+            </form>
+
+
+            <div class="back-part2">
+                <div class="elli">
+                    <h4>papular Artist</h4>
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+                </div>
+                <div class="popularArtist">
+                    <div class="pupADetile">
+                        <img src="./artist/Miley Cyrus.jpg" alt="">
+                        <h5>Artist Name</h5>
+                    </div>
+                    <div class="pupADetile">
+                        <img src="./artist/adele.jpg" alt="">
+                        <h5>Artist Name</h5>
+                    </div>
+                    <div class="pupADetile">
+                        <img src="./artist/adam-levine-hd.jpg" alt="">
+                        <h5>Artist Name</h5>
+                    </div>
+                    <div class="pupADetile">
+                        <img src="./artist/eminem.jpg" alt="">
+                        <h5>Artist Name</h5>
+                    </div>
+                    <div class="pupADetile">
+                        <img src="./artist/selena.jpg" alt="">
+                        <h5>Artist Name</h5>
+                    </div>
+                    <div class="pupADetile">
+                        <img src="./artist/shakira.jpg" alt="">
+                        <h5>Artist Name</h5>
+                    </div>
+
+                </div>
+                <div class="topPod">
+                    <h4>Top Podcaster</h4>
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+
+                </div>
+                <div class="podcast">
+
+                    <div class="podcastArtist">
+                        <img src="./artist/bruno mars.jpg" alt="">
+                        <h5>artist name</h5>
+                    </div>
+                    <div class="podcastArtist">
+                        <img src="./artist/coldplay.jpg" alt="">
+                        <h5>artist name</h5>
+                    </div>
+
+                </div>
+                <div class="nowDetail">
+                    <h4>Now Playing</h4>
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+
+                </div>
+                <div class="nowPlaying">
+
+
+                    <div class="playingStyle">
+                        <img src="./artist/avicii.jpg">
+                        <div class="playingSticker">
+                            <p>name of music</p>
+                            <img src="png/play2.png" class="sticker">
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <h3 class="seemore">see more ...</h3>
+
+
+
+
+
+        </div>
+    </section>
+    <script src="./music player.js"></script>
+</body>
+
+</html>
